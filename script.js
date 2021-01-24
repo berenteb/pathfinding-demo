@@ -214,7 +214,7 @@ function initNotVisitedArray(){
 }
 
 function isEmpty(){
-    for(let i = 0; i < q.length; i++){
+    for(let i = 0; i < q.length; i++){
         var pos = q[i];
         if(pos !== undefined){
             return false;
