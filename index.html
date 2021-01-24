@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pathfinding</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="import_maze.js"></script>
+    </head>
+    <body>
+        <div class="bar">
+            <h1 class="title">
+                Pathfinding by BB
+            </h1>
+        </div>
+        <div class="app">
+            <div class="settings">
+                <div class="settingsField">
+                    <h3>Import maze</h3>
+                    <input type="file" id="fileSelector">
+                    <canvas id="canvas" width="101" height="101" hidden="true"></canvas>
+                </div>
+                <div class="settingsField">
+                    <h3>Settings</h3>
+                    <div class="checkboxField">
+                        <input type="checkbox" value="off" id="diagonalCheckbox" onchange="handleCheckBoxChange(this)">
+                        <label for="diagonalCheckbox">Diagonal moves</label>
+                    </div>
+                </div>
+                <div class="settingsField">
+                    <h3>Start</h3>
+                    <button class="button" id="startButton">Find path</button>
+                </div>
+                <div class="settingsField">
+                    <h3>Processing time</h3>
+                    <p id="time">Will appear here.</p>
+                </div>
+            </div>
+            <div class="maze" id="maze">
+            </div>
+        </div>
+    </body>
+</html>
