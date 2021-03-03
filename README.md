@@ -1,4 +1,3 @@
-![Version: see package.json](https://img.shields.io/github/package-json/v/berenteb/pathfinding-demo)
 # Pathfinding Demo with Dijkstra Algorithm
 This demo is designed to solve mazes [like this](./maze_example.png).
 I strongly recommend using this maze generator: https://keesiemeijer.github.io/maze-generator/
